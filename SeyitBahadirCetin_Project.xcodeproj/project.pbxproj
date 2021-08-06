@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1A5E752659B95200C37A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E742659B95200C37A1B /* AppDelegate.swift */; };
+		BA1A5E772659B95200C37A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E762659B95200C37A1B /* SceneDelegate.swift */; };
+		BA1A5E792659B95200C37A1B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E782659B95200C37A1B /* MainVC.swift */; };
+		BA1A5E7C2659B95200C37A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1A5E7A2659B95200C37A1B /* Main.storyboard */; };
+		BA1A5E7F2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E7D2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodeld */; };
+		BA1A5E812659B95300C37A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1A5E802659B95300C37A1B /* Assets.xcassets */; };
+		BA1A5E842659B95300C37A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1A5E822659B95300C37A1B /* LaunchScreen.storyboard */; };
+		BA1A5E8D265BC1A200C37A1B /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E8B265BC1A200C37A1B /* Holiday.swift */; };
+		BA1A5E8E265BC1A200C37A1B /* Holiday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E8C265BC1A200C37A1B /* Holiday+CoreDataProperties.swift */; };
+		BA1A5E90265BD23300C37A1B /* NavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E8F265BD23300C37A1B /* NavVC.swift */; };
+		BA1A5E92265BED2C00C37A1B /* AddHolidayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E91265BED2C00C37A1B /* AddHolidayVC.swift */; };
+		BA1A5E94265BED7A00C37A1B /* PlanHolidayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E93265BED7A00C37A1B /* PlanHolidayVC.swift */; };
+		BA1A5E96265C505000C37A1B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E95265C505000C37A1B /* CustomTableViewCell.swift */; };
+		BA1A5E98265C51AC00C37A1B /* BrowseHotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E97265C51AC00C37A1B /* BrowseHotelsVC.swift */; };
+		BA1A5E9A265C51C600C37A1B /* HotelDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E99265C51C600C37A1B /* HotelDetailVC.swift */; };
+		BA1A5E9C265C54BA00C37A1B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E9B265C54BA00C37A1B /* SwiftyJSON.swift */; };
+		BA1A5E9E265D5C6900C37A1B /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = BA1A5E9D265D5C6900C37A1B /* hotels.json */; };
+		BA1A5EA0265D5CA600C37A1B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5E9F265D5CA500C37A1B /* DataSource.swift */; };
+		BA1A5EA2265D5CBE00C37A1B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A5EA1265D5CBE00C37A1B /* Record.swift */; };
+		BA939D24265EB4D700C73679 /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA939D23265EB4D600C73679 /* bgMusic.mp3 */; };
+		BA939D26265EC39700C73679 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA939D25265EC39700C73679 /* GradientView.swift */; };
+		BA939D2826615FFB00C73679 /* CustomHotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA939D2726615FFB00C73679 /* CustomHotelTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA1A5E712659B95200C37A1B /* SeyitBahadirCetin_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeyitBahadirCetin_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1A5E742659B95200C37A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA1A5E762659B95200C37A1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA1A5E782659B95200C37A1B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		BA1A5E7B2659B95200C37A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA1A5E7E2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeyitBahadirCetin_Project.xcdatamodel; sourceTree = "<group>"; };
+		BA1A5E802659B95300C37A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1A5E832659B95300C37A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA1A5E852659B95300C37A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1A5E8B265BC1A200C37A1B /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		BA1A5E8C265BC1A200C37A1B /* Holiday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Holiday+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA1A5E8F265BD23300C37A1B /* NavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
+		BA1A5E91265BED2C00C37A1B /* AddHolidayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHolidayVC.swift; sourceTree = "<group>"; };
+		BA1A5E93265BED7A00C37A1B /* PlanHolidayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHolidayVC.swift; sourceTree = "<group>"; };
+		BA1A5E95265C505000C37A1B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		BA1A5E97265C51AC00C37A1B /* BrowseHotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseHotelsVC.swift; sourceTree = "<group>"; };
+		BA1A5E99265C51C600C37A1B /* HotelDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailVC.swift; sourceTree = "<group>"; };
+		BA1A5E9B265C54BA00C37A1B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BA1A5E9D265D5C6900C37A1B /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; };
+		BA1A5E9F265D5CA500C37A1B /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		BA1A5EA1265D5CBE00C37A1B /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		BA939D23265EB4D600C73679 /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
+		BA939D25265EC39700C73679 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BA939D2726615FFB00C73679 /* CustomHotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHotelTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1A5E6E2659B95200C37A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1A5E682659B95100C37A1B = {
+			isa = PBXGroup;
+			children = (
+				BA1A5E8B265BC1A200C37A1B /* Holiday.swift */,
+				BA1A5E8C265BC1A200C37A1B /* Holiday+CoreDataProperties.swift */,
+				BA1A5E732659B95200C37A1B /* SeyitBahadirCetin_Project */,
+				BA1A5E722659B95200C37A1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1A5E722659B95200C37A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1A5E712659B95200C37A1B /* SeyitBahadirCetin_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1A5E732659B95200C37A1B /* SeyitBahadirCetin_Project */ = {
+			isa = PBXGroup;
+			children = (
+				BA939D23265EB4D600C73679 /* bgMusic.mp3 */,
+				BA1A5E742659B95200C37A1B /* AppDelegate.swift */,
+				BA1A5E9B265C54BA00C37A1B /* SwiftyJSON.swift */,
+				BA1A5E762659B95200C37A1B /* SceneDelegate.swift */,
+				BA1A5EA1265D5CBE00C37A1B /* Record.swift */,
+				BA1A5E782659B95200C37A1B /* MainVC.swift */,
+				BA1A5E8F265BD23300C37A1B /* NavVC.swift */,
+				BA1A5E91265BED2C00C37A1B /* AddHolidayVC.swift */,
+				BA1A5E9F265D5CA500C37A1B /* DataSource.swift */,
+				BA1A5E9D265D5C6900C37A1B /* hotels.json */,
+				BA1A5E93265BED7A00C37A1B /* PlanHolidayVC.swift */,
+				BA1A5E97265C51AC00C37A1B /* BrowseHotelsVC.swift */,
+				BA1A5E99265C51C600C37A1B /* HotelDetailVC.swift */,
+				BA1A5E95265C505000C37A1B /* CustomTableViewCell.swift */,
+				BA939D25265EC39700C73679 /* GradientView.swift */,
+				BA939D2726615FFB00C73679 /* CustomHotelTableViewCell.swift */,
+				BA1A5E7A2659B95200C37A1B /* Main.storyboard */,
+				BA1A5E802659B95300C37A1B /* Assets.xcassets */,
+				BA1A5E822659B95300C37A1B /* LaunchScreen.storyboard */,
+				BA1A5E852659B95300C37A1B /* Info.plist */,
+				BA1A5E7D2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodeld */,
+			);
+			path = SeyitBahadirCetin_Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1A5E702659B95200C37A1B /* SeyitBahadirCetin_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1A5E882659B95300C37A1B /* Build configuration list for PBXNativeTarget "SeyitBahadirCetin_Project" */;
+			buildPhases = (
+				BA1A5E6D2659B95200C37A1B /* Sources */,
+				BA1A5E6E2659B95200C37A1B /* Frameworks */,
+				BA1A5E6F2659B95200C37A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeyitBahadirCetin_Project;
+			productName = SeyitBahadirCetin_Project;
+			productReference = BA1A5E712659B95200C37A1B /* SeyitBahadirCetin_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA1A5E692659B95100C37A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CTIS;
+				TargetAttributes = {
+					BA1A5E702659B95200C37A1B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BA1A5E6C2659B95100C37A1B /* Build configuration list for PBXProject "SeyitBahadirCetin_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA1A5E682659B95100C37A1B;
+			productRefGroup = BA1A5E722659B95200C37A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1A5E702659B95200C37A1B /* SeyitBahadirCetin_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1A5E6F2659B95200C37A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1A5E842659B95300C37A1B /* LaunchScreen.storyboard in Resources */,
+				BA1A5E812659B95300C37A1B /* Assets.xcassets in Resources */,
+				BA1A5E9E265D5C6900C37A1B /* hotels.json in Resources */,
+				BA1A5E7C2659B95200C37A1B /* Main.storyboard in Resources */,
+				BA939D24265EB4D700C73679 /* bgMusic.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1A5E6D2659B95200C37A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1A5EA0265D5CA600C37A1B /* DataSource.swift in Sources */,
+				BA1A5E7F2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodeld in Sources */,
+				BA1A5EA2265D5CBE00C37A1B /* Record.swift in Sources */,
+				BA1A5E92265BED2C00C37A1B /* AddHolidayVC.swift in Sources */,
+				BA1A5E792659B95200C37A1B /* MainVC.swift in Sources */,
+				BA1A5E8D265BC1A200C37A1B /* Holiday.swift in Sources */,
+				BA939D26265EC39700C73679 /* GradientView.swift in Sources */,
+				BA1A5E98265C51AC00C37A1B /* BrowseHotelsVC.swift in Sources */,
+				BA1A5E94265BED7A00C37A1B /* PlanHolidayVC.swift in Sources */,
+				BA1A5E752659B95200C37A1B /* AppDelegate.swift in Sources */,
+				BA939D2826615FFB00C73679 /* CustomHotelTableViewCell.swift in Sources */,
+				BA1A5E96265C505000C37A1B /* CustomTableViewCell.swift in Sources */,
+				BA1A5E8E265BC1A200C37A1B /* Holiday+CoreDataProperties.swift in Sources */,
+				BA1A5E90265BD23300C37A1B /* NavVC.swift in Sources */,
+				BA1A5E9A265C51C600C37A1B /* HotelDetailVC.swift in Sources */,
+				BA1A5E9C265C54BA00C37A1B /* SwiftyJSON.swift in Sources */,
+				BA1A5E772659B95200C37A1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA1A5E7A2659B95200C37A1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1A5E7B2659B95200C37A1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA1A5E822659B95300C37A1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1A5E832659B95300C37A1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1A5E862659B95300C37A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA1A5E872659B95300C37A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA1A5E892659B95300C37A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeyitBahadirCetin_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cetin.SeyitBahadirCetin-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA1A5E8A2659B95300C37A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeyitBahadirCetin_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cetin.SeyitBahadirCetin-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1A5E6C2659B95100C37A1B /* Build configuration list for PBXProject "SeyitBahadirCetin_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1A5E862659B95300C37A1B /* Debug */,
+				BA1A5E872659B95300C37A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1A5E882659B95300C37A1B /* Build configuration list for PBXNativeTarget "SeyitBahadirCetin_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1A5E892659B95300C37A1B /* Debug */,
+				BA1A5E8A2659B95300C37A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA1A5E7D2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA1A5E7E2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodel */,
+			);
+			currentVersion = BA1A5E7E2659B95200C37A1B /* SeyitBahadirCetin_Project.xcdatamodel */;
+			path = SeyitBahadirCetin_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA1A5E692659B95100C37A1B /* Project object */;
+}

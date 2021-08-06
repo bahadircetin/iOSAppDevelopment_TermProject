@@ -1,0 +1,59 @@
+{
+    "items": [
+              {
+                "category": "Alacati",
+                "name": "Bel Canto Hotel",
+                "description": "Hacımemiş bölgesinde, sadece yetişkinlere yönelik, açık havuz, restoran olan otel.",
+                "image": "bel_canto",
+                "rating": "10.0"
+              },
+              {
+              "category": "Alacati",
+              "name": "Kapari Hotel",
+              "description": "Çeşme bölgesinde, aile dostu, restoran, havuz kenarı barı olan otel.",
+              "image": "kapari",
+              "rating": "9.8" },
+              {
+              "category": "Alacati",
+              "name": "Casa Bella Hotel",
+              "description": "Çeşme bölgesinde, açık havuz, bar/oturma salonu olan otel.",
+              "image": "casa_bella",
+              "rating": "9.6" },
+              {
+              "category": "Belek",
+              "name": "Regnum Carya Resort",
+              "description": "Belek bölgesinde, plaja sıfır, golf sahası, ücretsiz su parkı olan otel.",
+              "image": "regnum",
+              "rating": "9.6" },
+              {
+              "category": "Belek",
+              "name": "Xanadu Resort",
+              "description": "Belek bölgesinde, plaja sıfır, ücretsiz su parkı, spa olan otel.",
+              "image": "xanadu",
+              "rating": "9.4" },
+              {
+              "category": "Belek",
+              "name": "Cornelia Diamond Golf Resort & SPA",
+              "description": "Belek Golf Alanı bölgesinde, plaja sıfır, spa, plaj barı olan resort otel.",
+              "image": "cornelia",
+              "rating": "9.2" },
+              {
+              "category": "Kusadasi",
+              "name": "LaVista Boutique Hotel & Spa",
+              "description": "Kuşadası Plajı yakınında, açık havuz olan 4 Yıldızlı otel.",
+              "image": "lebleu",
+              "rating": "9.6" },
+              {
+              "category": "Kusadasi",
+              "name": "Hotel Ilayda",
+              "description": "Kuşadası Plajı yakınında, plaja yakın / plaja bitişik ve restoran olan otel.",
+              "image": "ilayda",
+              "rating": "8.6" },
+              {
+              "category": "Kusadasi",
+              "name": "Charisma De Luxe Hotel",
+              "description": "Kuşadası Marina yakınında, lüks, plaja sıfır ve spa olan otel.",
+              "image": "charisma",
+              "rating": "8.4" }
+            ]
+}
